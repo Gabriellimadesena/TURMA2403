@@ -1,3 +1,5 @@
+package Dao;
+
 public interface Crud<T> {
     void criar(T entidade);
     T ler(int id);
